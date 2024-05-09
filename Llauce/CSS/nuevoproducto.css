@@ -1,0 +1,23 @@
+/* nuevoproducto.css */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para el div que debe ocupar toda la pantalla */
+.full-screen-div {
+    flex: 1;
+}
+
+/* Estilo para el footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

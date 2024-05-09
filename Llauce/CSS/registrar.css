@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    /*margin-top: 80px;*/
+    justify-content: center;
+    padding-top: 90px;
+    background-image: url(/SRC/Background-iniciosesión.png);
+}
+form{
+    /*arriba, derecho, abajo, izquierda*/
+    padding: 40px 55px 50px 55px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgb(0,0,0,0.2);
+    border-radius: 30px;
+    text-align: center;
+    width: 400px;
+    height:670px;
+}
+.registrarte_is{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.registrarte_is a{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: none;
+}
+.info_registrarse{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 30px;
+}
+h2{
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+.line{
+    display: inline-block;
+    width: 80px;
+    height: 8px;
+    background: linear-gradient(
+        90deg,
+        rgb(169, 232, 209) 0%,
+        rgb(129, 195, 215) 100%);
+    border-radius: 20px;
+}
+label{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input{
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(211, 217, 219);
+    color:rgb(0, 0, 0);
+    outline: none;
+}
+input::placeholder{
+    color: rgb(178, 182, 182);
+}
+.boton_iniciar_sesion{
+    color: rgb(8, 8, 8);
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 25px;
+    background: linear-gradient(
+        90deg,
+        rgb(169, 232, 209) 0%,
+        rgb(129, 195, 215) 100%);
+    box-shadow: 0 0 20px rgb(135, 166, 172);
+    cursor: pointer;
+    width: 400px;
+    align-items: center;
+    content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.boton_iniciar_sesion:hover{
+    background: linear-gradient(
+        90deg,
+        rgb(129,195,215) 0%,
+        rgb(169, 232, 209) 100%);
+}

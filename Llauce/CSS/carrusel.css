@@ -1,0 +1,51 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10/10/2023, 01:26:59 AM
+    Author     : JOS3 YNOÑAN
+*/
+
+/* Estilos para el contenedor del carousel */
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos para el carousel */
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.carousel-item {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* Estilos para los controles del carousel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+/* Estilos para las imágenes dentro del carousel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
